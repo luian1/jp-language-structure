@@ -312,6 +312,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #1b1b1b;
+	border-radius:3px;
 }
 
 li {
