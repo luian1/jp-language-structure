@@ -149,7 +149,7 @@ table {
 }
 
 #enBox {
-	background-color: rgba(227, 227, 227);
+	background-color: rgb(222, 222, 222);
 	position: absolute;
 	z-index: -1;
 	filter: drop-shadow(0 3px 2px);
@@ -159,6 +159,7 @@ table {
 	background-color: aliceblue;
 	position: relative;
 	z-index: -2;
+	filter: drop-shadow(0 3px 3px);
 }
 
 .homeBox {
@@ -194,6 +195,11 @@ p {
 }
 
 h1 {
+	font-family: 'Reggae One', serif;
+	font-weight: 500;
+	line-height: normal;
+}
+.head {
 	font-family: 'Reggae One', serif;
 	font-weight: 500;
 	line-height: normal;
@@ -234,11 +240,12 @@ header {
 	column-gap: 0.5em;
 }
 
-.chart {
-	margin-left: 20vw;
-	max-width: 30vw;
-	width: auto;
-	height: auto;
+.example {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	padding: 1em;
+	background-color:aliceblue;
+	border-radius: 3px;
 	box-shadow: 0 4px 8px 0 #1b1b1bd1, 0 6px 20px 0 #1b1b1bd1;
 	margin-bottom: 2em;
 }
@@ -250,9 +257,9 @@ header {
 	position: fixed;
 	margin-left: 61%;
 	width: 40%;
+	min-height: 100vh;
 	height: 100%;
-	background-color: #1b1b1bd1;
-	box-shadow: 10px 5px 5px 10px #1b1b1bd1;
+	background-color: #1b1b1be7;
 }
 
 #sideBar2 {
@@ -261,9 +268,9 @@ header {
 	top: 0 !important;
 	position: fixed;
 	width: 10%;
+	min-height: 100vh;
 	height: 100%;
-	background-color: #1b1b1bd1;
-	box-shadow: -10px 5px 5px 10px #1b1b1bd1;
+	background-color: #1b1b1be7;
 }
 
 #firstPoint {
